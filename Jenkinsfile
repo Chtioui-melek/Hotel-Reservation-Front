@@ -53,7 +53,7 @@ pipeline {
                 script {
                     sh """
                     # Remove any existing container
-                    docker rm -f front-pfa || true
+                    docker rm -f pfe-hotel || true
 
                     # Pull the latest pushed image
                     docker pull ${IMAGE_NAME}:${env.BUILD_NUMBER}
