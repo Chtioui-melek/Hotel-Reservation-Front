@@ -32,7 +32,6 @@ const Login = () => {
 			setErrorMessage("")
 		}, 4000)
 	}
-console.log("fff")
 	return (
 		<section className="container col-6 mt-5 mb-5">
 			{errorMessage && <p className="alert alert-danger">{errorMessage}</p>}
